@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -26,14 +26,15 @@ body {
 
 .section-1 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h1 {
     font-size: 48px;
     color: #e53170;
     font-weight: 900;
-    padding: 30px 0;
-}
+    margin: 30px 0;
+    }
 
 .section-1 p {
     font-weight: 600;
@@ -43,17 +44,42 @@ h1 {
 
 .col {
     width: calc(100% / 3);
-    flex: left;
-    padding: 0 20px;
+    float: left;
+    padding: 20px 10px;
 } 
 
-img {
-    height: 100px;
-    width: 100px;
-    flex: left;
+.card {
+    background-color: #0f0e17;
+    color: white;
 }
 
-.card p {
-    flex: right;
+img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
 }
+
+.card-2 {
+    padding: 10px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.email {
+    color: #25a1de;
+}
+
+
+
+
+
+
+
+
+
 
